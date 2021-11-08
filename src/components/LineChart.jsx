@@ -11,7 +11,7 @@ const LineChart = ({ coin }) => {
         symbol={`${coin}USDT`}
         theme={Themes.DARK}
         interval="D"
-        locale="fr"
+        locale="en"
         autosize
         allow_symbol_change={true}
         timezone= "exchange"
