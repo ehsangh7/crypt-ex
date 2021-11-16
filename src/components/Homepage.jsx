@@ -14,7 +14,7 @@ const { Title } = Typography;
 
 const Homepage = () => {
   const { data, isFetching } = useGetCryptosQuery(10);
-  const globalStats = data?.data;
+  const globalStats = data
   console.log(globalStats)
   if (isFetching) return <Loader />;
 
